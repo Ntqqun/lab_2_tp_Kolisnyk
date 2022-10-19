@@ -1,0 +1,66 @@
+body {
+    height: 100vh;
+    background-color: rgb(114, 87, 252);
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+.wrap {
+    width: 300px;
+    margin: auto;
+}
+
+#input {
+    width: 70%;
+}
+
+#btn {
+    width: 20%;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#result {
+    margin-bottom: 50px;
+}
+
+.btn {
+    background: red;
+    border: none;
+    color: white;
+    margin-left: 15px;
+    padding: 10px;
+    cursor: pointer;
+    position: relative;
+    z-index: 10;
+}
+
+.li {
+    padding: 4px 8px;
+    background: white;
+    border: 1px solid brown;
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 5;
+    width: 100%;
+    text-transform: capitalize;
+}
+
+.li-active {
+    color: grey;
+    text-decoration: line-through;
+    background: #333;
+}
+
+.li-active .btn {
+    color: grey;
+    text-decoration: line-through;
+    background: #333;
+}
